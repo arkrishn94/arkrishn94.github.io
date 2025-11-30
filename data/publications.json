@@ -1,0 +1,139 @@
+{
+  "preprints": [
+    {
+      "title": "Optimistic Query Routing for Maximum Inner-Product Search",
+      "authors": [
+        "Sebastian Bruch",
+        "Aditya Krishnan",
+        "Franco Maria Nardini"
+      ],
+      "venue": "In Submission",
+      "year": 2024,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2405.12207"
+        }
+      ]
+    },
+    {
+      "title": "Projective Clustering Product Quantization",
+      "authors": [
+        "Aditya Krishnan",
+        "Edo Liberty"
+      ],
+      "venue": "In Submission",
+      "year": 2022,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2112.02179"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Sublinear Time Spectral Density Estimation",
+      "authors": [
+        "Vladimir Braverman",
+        "Aditya Krishnan",
+        "Christopher Musco"
+      ],
+      "venue": "ACM Symposium on Theory of Computing (STOC)",
+      "year": 2022,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2104.03461"
+        }
+      ]
+    },
+    {
+      "title": "Lifelong Learning with Sketched Structural Regularization",
+      "authors": [
+        "Haoran Li",
+        "Aditya Krishnan",
+        "Jingfeng Wu",
+        "Soheil Kolouri",
+        "Praveen K. Pilly",
+        "Vladimir Braverman"
+      ],
+      "venue": "Asian Conference on Machine Learning (ACML)",
+      "year": 2021,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2104.08604"
+        }
+      ]
+    },
+    {
+      "title": "Near-Optimal Entrywise Sampling of Numerically Sparse Matrices",
+      "authors": [
+        "Vladimir Braverman",
+        "Robert Krauthgamer",
+        "Aditya Krishnan",
+        "Shay Sapir"
+      ],
+      "venue": "Conference on Learning Theory (COLT)",
+      "year": 2021,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2011.01777"
+        }
+      ]
+    },
+    {
+      "title": "Schatten Norms in Matrix Streams: Hello Sparsity, Goodbye Dimension",
+      "authors": [
+        "Vladimir Braverman",
+        "Robert Krauthgamer",
+        "Aditya Krishnan",
+        "Roi Sinoff"
+      ],
+      "venue": "International Conference on Machine Learning (ICML)",
+      "year": 2020,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/1907.05457"
+        }
+      ]
+    },
+    {
+      "title": "Competitively Pricing Parking in a Tree",
+      "authors": [
+        "Max Bender",
+        "Jacob Gilbert",
+        "Aditya Krishnan",
+        "Kirk Pruhs"
+      ],
+      "venue": "Conference on Web and Internet Economics (WINE)",
+      "year": 2020,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2007.07294"
+        }
+      ]
+    },
+    {
+      "title": "On Sketching the q to p Norms",
+      "authors": [
+        "Aditya Krishnan",
+        "Sidhanth Mohanty",
+        "David P. Woodruff"
+      ],
+      "venue": "International Conference on Approximation Algorithms for Combinatorial Optimization Problems (APPROX)",
+      "year": 2018,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/1806.06429"
+        }
+      ]
+    }
+  ]
+}
