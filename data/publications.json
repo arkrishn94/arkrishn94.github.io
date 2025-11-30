@@ -1,22 +1,6 @@
 {
   "preprints": [
     {
-      "title": "Optimistic Query Routing for Maximum Inner-Product Search",
-      "authors": [
-        "Sebastian Bruch",
-        "Aditya Krishnan",
-        "Franco Maria Nardini"
-      ],
-      "venue": "In Submission",
-      "year": 2024,
-      "links": [
-        {
-          "label": "arXiv",
-          "url": "https://arxiv.org/abs/2405.12207"
-        }
-      ]
-    },
-    {
       "title": "Projective Clustering Product Quantization",
       "authors": [
         "Aditya Krishnan",
@@ -33,6 +17,22 @@
     }
   ],
   "publications": [
+    {
+      "title": "Optimistic Query Routing for Maximum Inner-Product Search",
+      "authors": [
+        "Sebastian Bruch",
+        "Aditya Krishnan",
+        "Franco Maria Nardini"
+      ],
+      "venue": "NeurIPS 2025",
+      "year": 2025,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2405.12207"
+        }
+      ]
+    },
     {
       "title": "Sublinear Time Spectral Density Estimation",
       "authors": [

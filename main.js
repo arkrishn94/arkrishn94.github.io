@@ -143,8 +143,8 @@ function renderPublications(data) {
   container.innerHTML = "";
 
   const groups = [
-    { heading: "Preprints", items: Array.isArray(data?.preprints) ? data.preprints : [] },
-    { heading: "Selected Publications", items: Array.isArray(data?.publications) ? data.publications : [] }
+    { heading: "Publications", items: Array.isArray(data?.publications) ? data.publications : [] },
+    { heading: "Preprints", items: Array.isArray(data?.preprints) ? data.preprints : [] }
   ];
 
   const hasContent = groups.some(group => group.items.length);
