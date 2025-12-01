@@ -1,3 +1,5 @@
-I am a Senior Research Scientist at [Pinecone](https://www.pinecone.io) where I build indexing and quantization algorithms that make vector search and retrieval-augmented generation production-ready. I work closely with product teams to translate database research into reliable ML-powered search experiences.
+I work on the Semantic Fabric in M365 at Microsoft, where I focus on productionizing large-scale vector-based retrieval for LLM powered search experiences in M365 such as Copilot, Agent and traditional search.  
+
+Before this, I was a research scientist at [Pinecone](https://www.pinecone.io) where I worked on a improving different components of the RAG pipeline - for e.g. I worked on improving query routing for IVF-based vector search, designing SIMD kernels for quantization algorithms and designing novel finetuning recipes for training cross-encoders. 
 
 Before Pinecone, I completed my Ph.D. in Computer Science at Johns Hopkins University with [Vladimir Braverman](https://www.cs.jhu.edu/~vova/). I earned both my B.S. (2013–2017) and M.S. (2017–2018) in Computer Science from Carnegie Mellon University, where I was fortunate to collaborate with [Anupam Gupta](http://www.cs.cmu.edu/~anupamg/), [Kirk Pruhs](https://people.cs.pitt.edu/~kirk/), [David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/), and [Anil Ada](https://www.anilada.com/).
