@@ -14,48 +14,65 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-  <div class="page">
-    <header class="intro" id="top">
-      <img class="intro__photo" data-profile-headshot src="images/profile_pic_LA.jpeg" alt="Portrait of Aditya Krishnan">
-      <div class="intro__content">
-        <h1 data-profile-name>Aditya Krishnan</h1>
-        <p class="intro__tagline" data-profile-tagline>Loading profile...</p>
-        <p class="intro__location" data-profile-location></p>
-        <div class="intro__links" data-profile-links>Loading links...</div>
-      </div>
-    </header>
+  <nav class="topnav">
+    <div class="topnav__inner">
+      <a class="topnav__name" href="/" data-nav-name>Aditya Krishnan</a>
+      <div class="topnav__links" data-nav-links></div>
+    </div>
+  </nav>
 
-    <main>
-      <section class="section" id="about">
-        <h2>About</h2>
-        <div data-about-content>
+  <div class="page">
+    <aside class="sidebar">
+      <img class="sidebar__photo" data-profile-headshot src="images/profile_pic_LA.jpeg" alt="Portrait of Aditya Krishnan">
+      <h1 class="sidebar__name" data-profile-name>Aditya Krishnan</h1>
+      <p class="sidebar__tagline" data-profile-tagline></p>
+      <ul class="sidebar__meta">
+        <li class="sidebar__meta-item" data-profile-location>
+          <svg class="sidebar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span></span>
+        </li>
+        <li class="sidebar__meta-item" data-profile-email>
+          <svg class="sidebar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <a href=""></a>
+        </li>
+        <li class="sidebar__meta-item" data-profile-scholar>
+          <svg class="sidebar__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </li>
+        <li class="sidebar__meta-item" data-profile-github>
+          <svg class="sidebar__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <a href="" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li class="sidebar__meta-item" data-profile-linkedin>
+          <svg class="sidebar__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <article>
+        <h2 class="content__heading">About me</h2>
+        <div class="content__body" data-about-content>
           <p>Loading about section...</p>
         </div>
-      </section>
-
-      <section class="section" id="publications">
-        <h2>Publications</h2>
-        <div class="stack" data-publications>
-          <p>Loading publications...</p>
+        <div class="content__cv">
+          <a data-cv-link href="data/AdityaK-CV-Curr.pdf" target="_blank" rel="noopener noreferrer">Download my CV</a>
         </div>
-      </section>
-
-      <section class="section" id="service">
-        <h2>Service</h2>
-        <ul class="list" data-service-list>
-          <li>Loading service entries...</li>
-        </ul>
-      </section>
+        <p class="content__email">
+          <strong>Email:</strong> <span data-contact-email></span>
+        </p>
+      </article>
     </main>
-
-    <footer class="footer">
-      <p>&copy; <span data-footer-year></span> Aditya Krishnan.</p>
-    </footer>
   </div>
+
+  <footer class="footer">
+    <p>&copy; <span data-footer-year></span> Aditya Krishnan.</p>
+  </footer>
 
   <noscript>
     <div class="noscript">
-      <p>This site works best with JavaScript enabled. Please enable JavaScript to load the latest publications and service entries.</p>
+      <p>This site works best with JavaScript enabled.</p>
     </div>
   </noscript>
 </body>
