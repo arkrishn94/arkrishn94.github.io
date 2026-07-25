@@ -33,9 +33,13 @@ async function loadAbout() {
 
 function renderProfile(profile) {
   setText("[data-profile-name]", profile.name);
-  setText("[data-nav-name]", profile.name);
   setText("[data-profile-tagline]", profile.tagline);
-  setText("[data-contact-email]", profile.email);
+
+  const email = Array.isArray(profile.email)
+    ? profile.email[0] + "@" + profile.email[1]
+    : profile.email;
+
+  setText("[data-contact-email]", email);
 
   const headshot = document.querySelector("[data-profile-headshot]");
   if (headshot && profile.headshot) headshot.src = profile.headshot;
@@ -44,20 +48,13 @@ function renderProfile(profile) {
   if (locationEl) locationEl.textContent = profile.location || "";
 
   const emailEl = document.querySelector("[data-profile-email] a");
-  if (emailEl && profile.email) {
-    emailEl.href = "mailto:" + profile.email;
+  if (emailEl && email) {
+    emailEl.href = "mai" + "lto:" + email;
     emailEl.textContent = "Email";
   }
 
   const cvLink = document.querySelector("[data-cv-link]");
   if (cvLink && profile.cv) cvLink.href = profile.cv;
-
-  const navLinks = document.querySelector("[data-nav-links]");
-  if (navLinks && Array.isArray(profile.links)) {
-    navLinks.innerHTML = profile.links
-      .map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${l.label}</a>`)
-      .join("");
-  }
 
   if (Array.isArray(profile.links)) {
     profile.links.forEach(link => {
